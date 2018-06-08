@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* LAYOUT STYLES */
+.container {
+  display: grid;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    grid-template-columns: .25fr .25fr .25fr .25fr;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    grid-template-columns: .225fr .225fr .225fr .225fr;
+    font-size: 73%;
+  }
+  .App .course-component .class-date {
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    grid-template-columns: .2fr .2fr .2fr .2fr;
+    font-size: 46%;
+  }
+
+  .App .course-component .class-date {
+    top: 0px;
+  }
+  .App .course-component .button {
+    padding: 2px 2px;
+    width: 63%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    grid-template-columns: .5fr .5fr;
+  }
+  .App .course-component {
+    padding: 15px 5px;
+  }
+  .App .course-component .class-date {
+    top: 0px;
+  }
+  .App .course-component .button {
+    padding: 2px 2px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .container {
+    grid-template-columns: .5fr .5fr;
+  }
+  .App .course-component {
+    padding: 15px 5px;
+  }
+  .App .course-component .class-date {
+    top: 0px;
+  }
+  .App .course-component .button {
+    font-size: 10px;
+  }
+}

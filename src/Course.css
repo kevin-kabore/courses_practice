@@ -1,0 +1,69 @@
+
+.course-component {
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+  padding: 15px 5px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.course-component .course-description {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 2.1em;
+  line-height: 100%;
+}
+
+.course-component .test-name {
+  font-size: 1.6em;
+}
+
+.course-component .class-label {
+  font-size: 1.6em;
+  line-height: 1;
+}
+
+.course-component .course-location {
+  font-weight: 100;
+  font-size: 90%;
+}
+
+.classBtn {
+  color: rgb(36, 94, 193);
+}
+.examBtn {
+  color: rgb(198, 96, 45);
+}
+
+.course-component.class {
+  background-color: rgb(36, 94, 193);
+}
+
+.course-component.exam {
+  background-color: rgb(198, 96, 45);
+}
+
+.course-component .exam-date {
+  padding: 0 5px;
+}
+.course-component .class-date {
+  top: -5px;
+  position: relative;
+  font-size: .7em;
+}
+
+.course-component .button {
+  width: 50%;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
